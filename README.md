@@ -45,6 +45,8 @@
   npm test 경로/파일명 # *.js 파일에 선언된 descripbe 문 실행(jest)
   ```
 
+<br>
+<hr>
 
 ## 💻 진행 규칙 💻
 ✅ 이 저장소를 개인 저장소로 Fork 합니다.
