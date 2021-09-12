@@ -4,7 +4,7 @@
   "description": "JavaScript로 코딩테스트 대비하기",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
