@@ -153,7 +153,7 @@
         <td align="center">
             <a href="https://github.com/InSeong-So"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/18283006?v=4"/></a>
             <br />
-            <a href="https://github.com/InSeong-So">VSFe</a>
+            <a href="https://github.com/InSeong-So">InSeong-So</a>
         </td>
         <td align="center">
             <a href="https://github.com/Jinwook-R"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/85405837?v=4"/></a>
