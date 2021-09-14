@@ -1,0 +1,40 @@
+@ 입력값
+N = 영토의 가로 길이
+M = 영토의 세로 길이
+영토 = new Array[N][M]
+T = 테스트케이스 개수
+테스트케이스 = [startX, startY, endX, endY] * T
+
+: 초기화 함수
+function initCahce(N, M, 영토)
+  cache = new Array[N + 1][M + 1]
+  : 영토의 세로 합 구하기
+  for i = 1 to N + 1
+    for j = 1 to M + 1
+      cache[i][j] += cache[i - 1][j] + 영토[i - 1][j - 1]
+
+  : 영토의 가로 합 구하기
+  for i = 1 to N + 1
+    for j = 1 to M + 1
+      cache[i][j] += cache[i][j - 1]
+  
+  return cache
+
+: 구현 함수
+function solution(cache, 테스트케이스)
+  : 테스트 케이스만큼 반복
+  for [startX, startY, endX, endY] to 테스트케이스
+    : 중복 구간 구하기
+    dup = cache[startX - 1][startY - 1]
+    : 세로 합 구하기
+    xSum = cache[startX - 1][endY] - dup
+    : 가로 합 구하기
+    ySum = cache[endX][startY - 1] - dup
+    : 구간 합(중복 구간 + 세로 합 + 가로 합 빼기) 구하기
+    prefixSum = cache[endX][endY] - dup - xSum - ySum
+    
+    :출력
+    prefixSum
+
+arr = initCahce(N, M, 영토)
+solution(arr, 테스트케이스)
