@@ -1,6 +1,3 @@
-<div align='center'>
-    <img src="../../../images/boj.jpg" alt="BAEK JOON"/>
-</div>
 # 백준 21608 상어초등학교
 <br>
 

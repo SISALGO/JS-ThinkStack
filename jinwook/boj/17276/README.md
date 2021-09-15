@@ -1,6 +1,3 @@
-<div align='center'>
-    <img src="../../../images/boj.jpg" alt="BAEK JOON"/>
-</div>
 # 백준 12726 배열 돌리기
 <br>
 
