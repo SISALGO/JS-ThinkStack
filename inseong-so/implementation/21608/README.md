@@ -25,7 +25,7 @@
 
 <div align='center'>
 
-<img src='./images/1.jpg' width='400'/>
+<img src='./images/1.JPG' width='400'/>
 
 </div>
 
