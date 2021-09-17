@@ -1,0 +1,18 @@
+@ 입력값
+target = 비교할 문자열 1
+compare = 비교할 문자열 2
+
+
+solution target, compare
+  : 최장 공통 문자열의 길이를 구할 배열, 0으로 초기화
+  LCS = new Array[target의 길이 + 1][compare의 길이 + 1]
+
+  for 1 to target의 길이
+    for 1 to compare의 길이
+      만약 현재 비교 문자열 1과 2의 문자가 같다면
+        LCS[i][j]의 값은 전 단계 값에 1을 더한다.
+      아니라면
+        각 전 단계의 값 중 큰 값을 할당한다.
+
+  : 출력
+  LCS 배열의 마지막 원소 중 가장 큰 값
