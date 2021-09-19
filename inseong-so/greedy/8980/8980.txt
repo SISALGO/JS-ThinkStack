@@ -1,0 +1,17 @@
+@input
+N, W, arr
+
+@variable
+truck
+
+answer = 0
+for node to arr
+  min_weight = W
+  s, e, w = node
+  for s to e
+    min_weight = min(min_weight, truck[s])
+  min_weight = min(min_weight, w)
+  for s to e
+    truck[s] -= min_weight
+  
+  answer += min_weight
