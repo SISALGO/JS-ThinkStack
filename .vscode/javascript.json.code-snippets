@@ -1,4 +1,17 @@
 {
+  "Javascript CodingTest Input": {
+    "scope": "javascript,typescript",
+    "prefix": "input",
+    "body": [
+      "const input = require('fs')",
+      "  .readFileSync('stdin')",
+      "  .toString()",
+      "  .trim()",
+      "  .split(require('os').EOL);",
+      ""
+    ],
+    "description": "Javascript boj input"
+  },
   "Javascript CodingTest Comment": {
     "scope": "javascript,typescript",
     "prefix": "jst",
