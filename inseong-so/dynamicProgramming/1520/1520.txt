@@ -1,0 +1,25 @@
+@input
+N, M, arr
+
+@variable
+cache, dx, dy
+
+@func
+func dfs(x, y)
+  if x === N AND y === M
+    return 1
+  
+  if cache[x][y] !== -1
+    return cache[x][y]
+
+  cache[x][y] = 0
+
+  for 1 to 4
+    next_x = x + dx[i]
+    next_y = y + dy[i]
+
+    if next_x > 0 AND next_x <= N AND next_y > 0 AND next_y <= M
+        AND arr[next_x][next_y] < arr[x][y]
+      cache[x][y] += dfs(next_x, next_y)
+  
+  return cache[x][y]
