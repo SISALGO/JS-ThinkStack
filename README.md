@@ -199,16 +199,6 @@
             <a href="https://github.com/InSeong-So">InSeong-So</a>
         </td>
         <td align="center">
-            <a href="https://github.com/Jinwook-R"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/85405837?v=4"/></a>
-            <br />
-            <a href="https://github.com/Jinwook-R">Jinwook</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/hyojinLee-git"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/59614918?v=4"/></a>
-            <br />
-            <a href="https://github.com/hyojinLee-git">hyojinLee</a>
-        </td>
-        <td align="center">
             <a href="https://github.com/zinozino1"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/52441478?v=4"/></a>
             <br />
             <a href="https://github.com/zinozino1">zinozino1</a>
