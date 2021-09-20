@@ -1,6 +1,6 @@
 {
 	"Print to console": {
-		"prefix": "algo",
+		"prefix": "boj",
 		"body": [
 			"<div align='center'>",
 			"\r",
@@ -62,10 +62,10 @@
 			"\r",
 			"# 참고",
 			"## 구조",
-			"- ",
-			"- ",
-			"- ",
-			"- ",
+			"- images : 문제 관련 이미지 폴더",
+			"- ${TM_DIRECTORY/[^0-9]//gi}.txt : 의사 코드",
+			"- ${TM_DIRECTORY/[^0-9]//gi}.js : 구현 코드",
+			"- stdin : 테스트 케이스",
 			"\r",
 			"<br>",
 			"\r",

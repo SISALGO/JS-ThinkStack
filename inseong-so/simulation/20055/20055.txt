@@ -1,0 +1,43 @@
+@input
+N, K, arr
+
+@variable
+turns, count, robots
+
+@func
+func rotate
+  durability = arr[(N*2) - 1]
+  for (N*2) - 1 to 1
+    arr[i] = arr[i - 1]
+  arr[0] = durability
+
+func move
+  for (N - 1) to 1
+    robots[i] = robots[i - 1]
+  robots[0] = false
+
+@excute
+while turns < K
+  rotate, move
+  for N - 1 to 0
+    if robots[i]
+      next = i + 1
+      robots[i] = false
+      continue
+    
+    if next < N AND !robots[next] AND arr[next] > 0
+      robots[next] = true
+      robots[i] = false
+      arr[next]--
+
+      if arr[next] === 0
+        count++
+    
+  if !robots[0] AND arr[0]
+    arr[0]--
+    robots[0] = true
+
+    if arr[0] === 0
+      count++
+
+  turns++
