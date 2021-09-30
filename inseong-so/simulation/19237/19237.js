@@ -1,0 +1,1 @@
+const input = require('fs').readFileSync('stdin').toString().trim().split(require('os').EOL);
