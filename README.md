@@ -162,23 +162,72 @@
 
 <table align="center">
   <thead>
-    <th style="text-align:center">일자</th>
-    <th style="text-align:center">내용</th>
-    <th style="text-align:center">참석자</th>
-    <th style="text-align:center">비고</th>
+    <th style="text-align:center">주차</th>
+    <th style="text-align:center">문제</th>
+    <th style="text-align:center">분류</th>
   </thead>
-  <tbody>
+  <tbody align="center">
     <tr>
-      <td>2021-09-10</td>
-      <td>인원 모집 완료</td>
-      <td>-</td>
-      <td>-</td>
+      <td rowspan="5">1주차</td>
+      <td align="left"><a href="https://www.acmicpc.net/problem/21608">상어초등학교</a></td>
+      <td>구현</td>
     </tr>
     <tr>
-      <td>2021-09-13</td>
-      <td>1차 온라인 세션(KickOff)</td>
-      <td>-</td>
-      <td>-</td>
+      <td align="left"><a href="https://www.acmicpc.net/problem/17276">배열 돌리기</a></td>
+      <td>구현</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/20055">컨베이어 벨트 위의 로봇</a></td>
+      <td>구현</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/15724">주지수</a></td>
+      <td>다이나믹 프로그래밍</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/1520">내리막 길</a></td>
+      <td>다이나믹 프로그래밍</td>
+    </tr>
+    <tr>
+      <td rowspan="10">2주차</td>
+      <td align="left"><a href="https://www.acmicpc.net/problem/22856">트리순회</a></td>
+      <td>구현</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/19237">어른상어</a></td>
+      <td>구현</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/20181">꿈틀꿈틀 호석 애벌레 - 효율성</a></td>
+      <td>다이나믹 프로그래밍</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/8980">택배</a></td>
+      <td>그리디</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/7453">합이 0인 네 정수</a></td>
+      <td>이분탐색</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/2665">미로 만들기</a></td>
+      <td>그래프</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/22862">가장 긴 짝수 연속한 부분 수열(large)</a></td>
+      <td>투 포인터</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/3107">IPv6</a></td>
+      <td>문자열</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/1005">ACM Craft</a></td>
+      <td>위상정렬</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://www.acmicpc.net/problem/14621">나만안되는연애</a></td>
+      <td>MST</td>
     </tr>
   </tbody>
 </table>
@@ -192,18 +241,23 @@
 ## 🛠 Contributors 🛠
 
 <table>
-    <tr height="140px">
-        <td align="center">
-            <a href="https://github.com/InSeong-So"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/18283006?v=4"/></a>
-            <br />
-            <a href="https://github.com/InSeong-So">InSeong-So</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/zinozino1"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/52441478?v=4"/></a>
-            <br />
-            <a href="https://github.com/zinozino1">zinozino1</a>
-        </td>
-    </tr>
+  <tr height="140px">
+    <td align="center">
+      <a href="https://github.com/InSeong-So"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/18283006?v=4"/></a>
+      <br />
+      <a href="https://github.com/InSeong-So">InSeong-So</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/zinozino1"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/52441478?v=4"/></a>
+      <br />
+      <a href="https://github.com/zinozino1">zinozino1</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sungmin-choi"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/53036141?v=4"/></a>
+      <br />
+      <a href="https://github.com/sungmin-choi">sungmin-choi</a>
+    </td>
+  </tr>
 </table>
 
 ## 📚 History 📚
@@ -215,28 +269,8 @@
 - 🔧 `2021-09-14`
   - 저장소 커밋 컨벤션 추가
 
+- 🔧 `2021-10-03`
+  - 저장소 주차별 문제 수록 추가
+
 <br>
 <hr>
-
-
-
-<!-- 1 주차 : DP 2, *구현(시뮬레이션)* 3
-
-
-
-진호님 : dp 그리디 이분탐색
-  - *구현(시뮬레이션)*
-효진님 : dp 구현 최소스패닝트리
-  - DP 2, *구현(시뮬레이션)* 3
-진욱님 : dfs응용, 이분탐색
-  - *구현(시뮬레이션)*
-인성 : DP, 최단경로, 그래프 탐색, 이분탐색, 수학
-  - 
-
-
-
-
-DP
-이분탐색
-그래프 탐색
-스패닝트리 -->
